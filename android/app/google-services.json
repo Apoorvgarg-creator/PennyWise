@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "471014455639",
+    "project_id": "pennywise-465c9",
+    "storage_bucket": "pennywise-465c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471014455639:android:65dff06b3c61dc93572612",
+        "android_client_info": {
+          "package_name": "com.finwise.finwise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2q3To2xikPAdm1vE2legoOynGFBI1nNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
