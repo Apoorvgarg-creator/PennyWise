@@ -12,7 +12,20 @@
           "package_name": "com.finwise.finwise"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "471014455639-vrasb71gtda0fb7cnns9ems1b9khn18f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.finwise.finwise",
+            "certificate_hash": "3f36a926e2d263034ba55724f33fd5c02fe887cb"
+          }
+        },
+        {
+          "client_id": "471014455639-p8jbu9rnnjklt141upa10fpifitdq7qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB2q3To2xikPAdm1vE2legoOynGFBI1nNk"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471014455639-p8jbu9rnnjklt141upa10fpifitdq7qf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
