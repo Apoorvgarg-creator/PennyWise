@@ -1,6 +1,6 @@
-# finwise
+# PennyWise
 
-FinWise is a comprehensive personal finance management app designed to empower users with effective tools for budgeting, expense tracking, and financial goal planning. Built using Flutter, Firebase, and following the BLoC pattern, FinWise provides a seamless and visually engaging experience for users to take control of their finances.
+PennyWise is a comprehensive personal finance management app designed to empower users with effective tools for budgeting, expense tracking, and financial goal planning. Built using Flutter, Firebase, and following the BLoC pattern, PennyWise provides a seamless and visually engaging experience for users to take control of their finances.
 
 ## Getting Started
 
