@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-import 'base_colors.dart';
 
-class AppColors implements BaseColors{
-  Map<int, Color> _primary =
+class AppColors {
+  final Map<int, Color> _primary =
   {
-    50:Color.fromRGBO(218, 107, 255, 0.1),
-    100:Color.fromRGBO(218, 107, 255, 0.2),
-    200:Color.fromRGBO(218, 107, 255, 0.3),
-    300:Color.fromRGBO(218, 107, 255, 0.4),
-    400:Color.fromRGBO(218, 107, 255, 0.5),
-    500:Color.fromRGBO(218, 107, 255, 0.6),
-    600:Color.fromRGBO(218, 107, 255, 0.7),
-    700:Color.fromRGBO(218, 107, 255, 0.8),
-    800:Color.fromRGBO(218, 107, 255, 0.9),
-    900:Color.fromRGBO(218, 107, 255, 1.0),
+    50:const Color.fromRGBO(218, 107, 255, 0.1),
+    100:const Color.fromRGBO(218, 107, 255, 0.2),
+    200:const Color.fromRGBO(218, 107, 255, 0.3),
+    300:const Color.fromRGBO(218, 107, 255, 0.4),
+    400:const Color.fromRGBO(218, 107, 255, 0.5),
+    500:const Color.fromRGBO(218, 107, 255, 0.6),
+    600:const Color.fromRGBO(218, 107, 255, 0.7),
+    700:const Color.fromRGBO(218, 107, 255, 0.8),
+    800:const Color.fromRGBO(218, 107, 255, 0.9),
+    900:const Color.fromRGBO(218, 107, 255, 1.0),
   };
 
   @override
@@ -42,5 +41,12 @@ class AppColors implements BaseColors{
 
   @override
   Color get countrySelectionBorderColor => const Color(0xffff69f8);
+
+  static const kPrimaryColor = Color(0xFFFFFFFF);
+  static const kGreyColor = Color(0xFFEEEEEE);
+  static const kBlackColor = Color(0xFF000000);
+  static const kDarkGreyColor = Color(0xFF9E9E9E);
+  static const kDarkBlueColor = Color(0xFF6057FF);
+  static const kBorderColor = Color(0xFFEFEFEF);
 
 }

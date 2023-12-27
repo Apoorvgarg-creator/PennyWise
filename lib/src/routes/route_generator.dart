@@ -1,5 +1,10 @@
+import 'package:finwise/src/ui/home_view.dart';
+import 'package:finwise/src/ui/signin_view.dart';
+import 'package:finwise/src/ui/signup_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../ui/welcome_view.dart';
 
 class RouteGenerator {
 
@@ -7,6 +12,15 @@ class RouteGenerator {
     final args = settings.arguments;
 
     switch (settings.name) {
+      case HomeView.id:
+        return MaterialPageRoute(builder: (context) => const HomeView());
+      case WelcomeView.id:
+        return MaterialPageRoute(builder: (context) => const WelcomeView());
+      case SignInView.id:
+        return MaterialPageRoute(builder: (context) => const SignInView());
+      case SignUpView.id:
+        return MaterialPageRoute(builder: (context) => const SignUpView());
+
       // case NewsListScreen.id:
       //   return MaterialPageRoute(
       //     builder: (_) => BlocProvider<NewsBloc>.value(
